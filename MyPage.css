@@ -89,6 +89,22 @@ div{
     background-color: black;
 }
 
+.phone{
+    padding-left: 8px;  
+    padding-right: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    margin: 25px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 10px 10px 20px 3px rgb(68, 68, 68);
+}
+
+.phone img{
+    height: 100%;
+    width: auto;
+}
+
 .wrap{
     width:300vw;
     transition: transform 0.5s;
