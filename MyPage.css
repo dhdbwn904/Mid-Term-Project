@@ -91,6 +91,7 @@ div{
 
 .wrap{
     width:300vw;
+    transition: transform 0.5s;
     overflow: hidden;
 }
 
@@ -106,4 +107,25 @@ div{
     padding: 5px;
     background-color: rgb(49, 49, 49);
     box-shadow: 0px 0px 10px 5px gray;
+}
+
+.left_btn{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://user-images.githubusercontent.com/65771716/167098580-48cb0a71-6074-422d-bdd1-758f55424ea2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    background-color: transparent;
+}
+
+
+.right_btn{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://user-images.githubusercontent.com/65771716/167098638-3d38c5d5-149c-4b70-b7d7-d6e48404234e.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    background-color: transparent;
 }

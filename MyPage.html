@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="container" style="background-color:#ececec; flex-direction: column;">
+<div class="container" style="background-color:#ececec; flex-direction: column; overflow: hidden;">
     <div style="flex-direction: column; background-image: url(https://c.pxhere.com/photos/bb/4d/plaster_texture_white_hauswand_stone_wall_walls-664783.jpg!d); height: 90%; width: 300vw;">
         <div style="width: 100vw; justify-content: center; flex-direction: column;">
             <h1 style="text-align: center; font-size: 4rem;">HOBBY</h1>
@@ -69,29 +69,60 @@
                 판데믹 사태 이전까지는 가까운 일본으로 여행을 자주 다녔습니다.<br>
                 요즘에는 그 때의 추억을 되살리며 라멘 맛집 탐방을 종종 다니는 것이 즐거움이 되었습니다.
             </h2>
+            <h3 style="text-align: center; font-size: 1rem;">화살표를 눌러 둘러보실 수 있습니다.</h3>
         </div>
-        <div style="overflow: hidden; border: solid 1px; height: 100%; margin: 0 auto;" >
-            <div class="wrap" style="border:solid 1px red; display: flex; flex-direction: row; margin: 0 auto;">
+        <div class="c" style="overflow: hidden; height: 100%; margin: 0 auto;" >
+            <div class="wrap" style="display: flex; flex-direction: row; margin: 0 auto;">
                 <div class="inner" style="align-items: center; justify-content: center;"> <!--한 장면-->
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
+                    <button class="left_btn" id="L1"></button>
+                    <img src="https://user-images.githubusercontent.com/65771716/167132388-6918d265-1f00-4ca6-bcc7-688e27d266c9.jpg">
+                    <img src="https://user-images.githubusercontent.com/65771716/167132393-a98309e7-67a0-47ec-84bc-8496ad68ec48.jpg">
+                    <img src="https://user-images.githubusercontent.com/65771716/167132397-671aaa66-df29-43b4-ab8a-570fbebd9826.jpg">
+                    <button class="right_btn" id="R1"></button>
+                    <script>
+                        document.getElementById("L1").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(-200vw)";
+                        })
+                        document.getElementById("R1").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(-100vw)";
+                        })
+                    </script>
                 </div>
                 <div class="inner" style="align-items: center; justify-content: center;"> <!--한 장면-->
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
+                    <button class="left_btn" id ="L2"></button>
+                    <img src="https://user-images.githubusercontent.com/65771716/167134428-6fca9ad6-9b0d-4eb1-824c-d96f41b3293c.png">
+                    <img src="https://user-images.githubusercontent.com/65771716/167134442-f6b674c0-a771-43e1-9ef2-96b2bdacde59.jpg">
+                    <img src="https://user-images.githubusercontent.com/65771716/167134447-e090c487-0290-40c4-a9b7-ad0088f47fef.jpg">
+                    <button class="right_btn" id="R2"></button>
+                    <script>
+                        document.getElementById("L2").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(0vw)";
+                        })
+                        document.getElementById("R2").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(-200vw)";
+                        })
+                    </script>
                 </div>
                 <div class="inner" style="align-items: center; justify-content: center;"> <!--한 장면-->
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
-                    <img src="https://user-images.githubusercontent.com/65771716/166988562-22d8c0e8-80e2-4f7b-a31f-871828ab69a9.jpg">
+                    <button class="left_btn" id="L3"></button>
+                    <img src="https://user-images.githubusercontent.com/65771716/167134554-522eca1b-d261-405a-b72b-5c58dbb06e36.jpg">
+                    <img src="https://user-images.githubusercontent.com/65771716/167134556-b5317966-6c51-468b-a048-cf93ea7eeb8a.jpg">
+                    <img src="https://user-images.githubusercontent.com/65771716/167134558-b2361b37-9a18-4943-b9d7-882069ded795.jpg">
+                    <button class="right_btn" id="R3"></button>
+                    <script>
+                        document.getElementById("L3").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(-100vw)";
+                        })
+                        document.getElementById("R3").addEventListener("click", function(){
+                            document.querySelector(".wrap").style.transform = "translate(0vw)";
+                        })
+                    </script>
                 </div>
             </div>
         </div>
     </div>
-    <div style="width: 300vw; height: 10%; background-image: url(https://publicdomainvectors.org/photocms/files1/WoodTexture.svg); filter: brightness(40%);"></div>
+    <div style="width: 300vw; height: 10%; background-image: url(https://publicdomainvectors.org/photocms/files1/WoodTexture.svg); filter: brightness(80%);"></div>
 </div>
-    
+
 </body>
 </html>
