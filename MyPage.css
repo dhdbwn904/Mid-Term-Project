@@ -38,7 +38,7 @@ a{
     display: flex;
     list-style: none;
     padding-left: 0;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .navbar_menu li{
@@ -68,10 +68,10 @@ div{
     float: right;
     position: relative;
     background: white;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     box-sizing: border-box;
 }
 
@@ -81,3 +81,29 @@ div{
     padding-bottom: 100%;
 }
 
+
+.album{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: black;
+}
+
+.wrap{
+    width:300vw;
+    overflow: hidden;
+}
+
+.inner{
+    width:100vw;
+    float: left;
+}
+
+.inner img{
+    width: 300px;
+    height: 300px;
+    margin: 0 40px;
+    padding: 5px;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 10px 5px gray;
+}
